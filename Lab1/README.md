@@ -55,6 +55,11 @@ This file contains the structure we will style using CSS.
 - Add the following styles to your CSS file under the previous code:
     - Set font family to Arial for better readability.
 ```css
+* {
+    margin : 0px ;
+    padding : 0px ;
+    box-sizing : border-box;
+}
 ```
 
 ---
@@ -65,6 +70,14 @@ This file contains the structure we will style using CSS.
     - Add borders as gray color solid lines to separate each section.
     - Center the text in each section.
 ```css
+<anytag> {
+    width: 100%;
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid;
+    border-color: gray;
+    text-align: center;
+}
 ```
 
 ---
@@ -75,6 +88,53 @@ This file contains the structure we will style using CSS.
     - Assign width percentages to each remaining section: 20% for nav and div, and 60% for article. Set a height of these elements to 200px for visualization purposes.
     - Ensures the footer appears below the nav, article, and div sections.
 ```css
+header {
+    width: 100%;
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid;
+    border-color: gray;
+    text-align: center;
+}
+nav {
+    height: 200px;
+    width: 20%;
+    float: left;
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid;
+    border-color: gray;
+    text-align: center;
+}
+article {
+    height: 200px;
+    width: 60%;
+    float: left;
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid;
+    border-color: gray;
+    text-align: center;
+}
+div {
+    height: 200px;
+    width: 20%;
+    float: left;
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid;
+    border-color: gray;
+    text-align: center;
+}
+footer {
+    clear:both;
+    width: 100%;
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid;  
+    border-color: gray;
+    text-align: center;
+}
 ```
 
 ---
