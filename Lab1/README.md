@@ -48,6 +48,11 @@ This file contains the structure we will style using CSS.
    - Use the CSS selector that can apply the style to all elements.
    - Set the `box-sizing` property so that padding and border are included in the width and height.
 ```css
+* {
+    margin : 0px ;
+    padding : 0px ;
+    box-sizing : border-box;
+}
 ```
 
 ---
@@ -55,10 +60,9 @@ This file contains the structure we will style using CSS.
 - Add the following styles to your CSS file under the previous code:
     - Set font family to Arial for better readability.
 ```css
-* {
-    margin : 0px ;
-    padding : 0px ;
-    box-sizing : border-box;
+body {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 ```
 
